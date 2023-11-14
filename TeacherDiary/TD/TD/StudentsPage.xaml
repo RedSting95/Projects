@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TD.StudentsPage">
+    <StackLayout Padding="20">
+        <Frame BackgroundColor="ForestGreen" Padding="24" CornerRadius="0">
+            <Label Text="Tanári napló - Diákok" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        
+        <Label Text="Új tanuló felvétele" FontSize="24"></Label>
+        <Label Text="Tanuló neve"></Label>
+        <Entry x:Name="studentEntry" Text="" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
+        <Button x:Name="newBtn" BackgroundColor="YellowGreen" Text="Hozzáad" FontSize="24" Clicked="newBtn_Clicked"></Button>
+        
+        <ListView x:Name="studentList" ItemSelected="studentList_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    
+                    <ViewCell>
+                        <StackLayout>
+                            
+                            
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50*"></ColumnDefinition>
+                                    <ColumnDefinition Width="30*"></ColumnDefinition>
+                                    <ColumnDefinition Width="20*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Column="0" Text="{Binding Name}" FontSize="24" Padding="10"></Label>
+                                <Button x:Name="modifyBtn" BackgroundColor="YellowGreen" Grid.Column="1" Text="Módosítás" FontSize="24" CommandParameter="{Binding Id}" Clicked="modifyBtn_Clicked"></Button>
+                                <Button x:Name="clearBtn" BackgroundColor="YellowGreen" Grid.Column="2" Text="Törlés" FontSize="24" CommandParameter="{Binding Id}" Clicked="clearBtn_Clicked"></Button>
+
+                                
+                            </Grid>
+                            
+
+                        </StackLayout>
+                    </ViewCell>
+
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+        
+    </StackLayout>
+</ContentPage>

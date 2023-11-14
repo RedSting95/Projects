@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TD.CalendarPage">
+    <StackLayout Padding="20">
+        <Frame BackgroundColor="ForestGreen" Padding="24" CornerRadius="0">
+            <Label Text="Tanári napló - Naptár" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Label Text="Tevékenység hozzáadása" FontSize="24"></Label>
+        <Label Text="Leírás"></Label>
+        <Entry x:Name="dscEntry" Text="" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
+        <Label Text="Dátum:"></Label>
+        <DatePicker x:Name="dpDate" Format="d" DateSelected="selected_DateSelected"/>
+        <Button Text="Rögzít" BackgroundColor="YellowGreen" FontSize="24" Clicked="Button_Clicked"></Button>
+
+        <ListView x:Name="calendarList" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding Description}"  FontSize="24" Padding="10"></Label>
+                            <Label Text="{Binding Date}"  FontSize="12" Padding="10"></Label>
+                            <Button Text="Törlés" BackgroundColor="YellowGreen" CommandParameter="{Binding Description}" x:Name="clearButton" Clicked="clearButton_Clicked"></Button>
+                        </StackLayout>
+                    </ViewCell>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+</ContentPage>

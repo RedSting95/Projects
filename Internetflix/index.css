@@ -1,0 +1,69 @@
+.series {
+    background-color: lightgray;
+    border: 5px solid red;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+h1,h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 50px;
+}
+
+.serie {
+    display: flex;
+}
+
+.seriescard {
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.watched {
+    background-color: lightyellow;
+    border: 1px solid yellow;
+}
+
+.form {
+    background-color: lightgray;
+    border: 5px solid black;
+    margin: 0 auto;
+    width: 550px;
+}
+
+.form > b {
+    padding: 20px;
+}
+
+.topnav {
+    background-color: gray;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: 5px solid black;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TD.MarksPage">
+    <StackLayout Padding="20">
+        <Frame BackgroundColor="ForestGreen" Padding="24" CornerRadius="0">
+            <Label Text="Tanári napló - Jegyek, és hiányzások" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Label Text="Jegy hozzáadása" FontSize="24"></Label>
+        <Label Text="Jegy értéke"></Label>
+        <Entry x:Name="valueEntry" Text="" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
+
+        <Label Text="Jegy súlya"></Label>
+        <Entry x:Name="weightEntry" Text="" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
+
+        <Button x:Name="addMarkBtn" BackgroundColor="YellowGreen" Text="Hozzáad" FontSize="24" Clicked="addMarkBtn_Clicked"></Button>
+
+        <Label Text="Jegyek" FontSize="24"></Label>
+        <ListView x:Name="marksList" ItemSelected="marksList_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+
+                    <ViewCell>
+                        <StackLayout>
+
+
+                            <Label Grid.Column="0" Text="{Binding Value}"  FontSize="24" Padding="10"></Label>
+
+                        </StackLayout>
+                    </ViewCell>
+
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Label Text="Jegyek átlaga" FontSize="24"></Label>
+        <Label x:Name="average" Text="" FontSize="24"></Label>
+
+
+        <Label Text="Hiány hozzáadása" FontSize="24"></Label>
+        <Label Text="Leírás"></Label>
+        <Entry x:Name="dscEntry" Text="" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
+        <Button x:Name="addBtn" BackgroundColor="YellowGreen" Text="Hozzáad" FontSize="24" Clicked="addBtn_Clicked"></Button>
+        <Label Text="Hiányok" FontSize="24"></Label>
+
+        <ListView x:Name="missingsList" ItemSelected="missingsList_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding Description}"  FontSize="24" Padding="10"></Label>
+
+                        </StackLayout>
+                    </ViewCell>
+
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

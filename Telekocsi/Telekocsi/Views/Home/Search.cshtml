@@ -1,0 +1,55 @@
+﻿@model List<Cars>
+@{
+    List<Lines> lines = ViewData["searchLines"] as List<Lines>;
+}
+
+<h3>Search lines</h3>
+@if (!String.IsNullOrEmpty(Convert.ToString(ViewData["session"])))
+{
+    <a href="~/Home/Addline">Add new line</a>
+}
+
+<form method="get" enctype="multipart/form-data" asp-action="Search" asp-controller="Home">
+    <label for="departure">Departure:</label>
+    <input type="text" name="departure" />
+    <label for="arrival">Arrival:</label>
+    <input type="text" name="arrival" />
+    <label for="date">Date (YYYY-MM-dd):</label>
+    <input type="datetime" name="date" /><br />
+
+    <button type="submit">Search</button>
+</form>
+
+<table>
+    @foreach (var l in lines) {
+        <tr>
+            <th>Line: @l.Start - @l.Arrival</th>
+            <th></th>
+            @if (!String.IsNullOrEmpty(Convert.ToString(ViewData["session"])))
+            {
+                <td>@Html.ActionLink("Add car","Addcar","Home", new { lid = l.Id }, null)</td>
+                <th></th>
+            }
+        </tr>
+        @foreach (var c in Model.Where(x => x.LineId == l.Id)) 
+        {
+            <tr>
+                <td>Departure: @c.Start, Seats: @c.OccupiedSpots/@l.Capacity</td>
+                @if (@c.OccupiedSpots < @l.Capacity)
+                {
+                    <td>
+                        @Html.ActionLink("Reserve","Reserve","Home", new { id = c.Id }, null)
+                    </td>
+                    
+                } else {
+                    <td></td>
+                }
+                @if (!String.IsNullOrEmpty(Convert.ToString(ViewData["session"])))
+                {
+                    <td>@Html.ActionLink("Modify","Modifycar","Home", new { id = c.Id }, null)</td>
+                    <td>@Html.ActionLink("Delete","Deletecar","Home", new { id = c.Id }, null)</td>
+                }
+            </tr>
+        }
+    }
+</table>

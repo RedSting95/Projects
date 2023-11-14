@@ -1,0 +1,5 @@
+﻿3,Nem írt házi feladatot
+4,Késett az óráról 10 percet
+8,Nem írt házi feladatot
+9,Felszerelés hiány
+2,Felszerelés hiány

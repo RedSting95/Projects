@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Tariff t = new();
+}
+@model List<Lines>
+<h3>Telecar lines</h3>
+@if (!String.IsNullOrEmpty(Convert.ToString(ViewData["session"])))
+{
+    <span><a href="~/Home/Addline">Add new line</a></span>
+}
+
+<table>
+    @{
+        foreach (var l in Model)
+        {
+             
+            <tr>
+                <td>
+        
+                    @Html.ActionLink($"{@l.Start} - {@l.Arrival}","Details","Home", new { id = l.Id }, null)
+                    <br>
+                    <span>@l.Distance km - @(l.Distance*Tariff.Price) Ft</span>
+                </td>
+                @if (!String.IsNullOrEmpty(Convert.ToString(ViewData["session"])))
+                {
+                    <td>@Html.ActionLink("Modify","Modifyline","Home", new { id = l.Id }, null)</td>
+                    <td>@Html.ActionLink("Delete","Deleteline","Home", new { id = l.Id }, null)</td>
+                }
+            </tr>
+        }
+    }
+</table>
+
+
+
+

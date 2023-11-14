@@ -1,0 +1,21 @@
+﻿
+@{
+}
+@model Lines
+
+<h3>Add car</h3>
+
+<form method="post" enctype="multipart/form-data" asp-action="Addcar" asp-controller="Home">
+
+    <input type="hidden" name="lineid" value="@Model.Id" />
+
+    <label for="start">Start: </label>
+    <input type="datetime" name="start" />
+    <span style="color:red; font-size:14px;">@ViewData["carStartError"]</span><br />
+
+    <input type="hidden" name="occupiedspots" value="0" />
+
+
+    <button type="submit">Add car</button> <a href="/Home/Index">Abort</a>  <br />
+    <span>@ViewData["formValide"]</span>
+</form>

@@ -1,0 +1,31 @@
+{
+    "userid1": {
+        "id": "userid1",
+        "username": "user1",
+        "email": "email1",
+        "watched": {
+            "series1": 2,
+            "series2": 1
+        }
+    },
+    "userid2": {
+        "id": "userid2",
+        "username": "user2",
+        "email": "email1",
+        "watched": {
+            "series1": 1,
+            "series4": 6
+        }
+    },
+    "6291f7a501520": {
+        "username": "manul",
+        "password": "$2y$10$tu48XMTE9EMb2kGzwjhEk.1P8yVc6OwMb7lgyrkIZOrRI8mGvCVHG",
+        "email": "manul@mail.com",
+        "watched": {
+            "series1": 2,
+            "series2": 1,
+            "series4": 6
+        },
+        "id": "6291f7a501520"
+    }
+}

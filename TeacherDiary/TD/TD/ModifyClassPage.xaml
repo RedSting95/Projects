@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TD.ModifyClassPage">
+    <StackLayout Padding="20">
+        <Frame BackgroundColor="ForestGreen" Padding="24" CornerRadius="0">
+            <Label Text="Tanári napló - Osztály módosítás" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Label Text="Osztály neve"></Label>
+        <Entry x:Name="nameEntry" Text="" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
+
+        <Button x:Name="modifySchoolBtn" BackgroundColor="YellowGreen" Text="Módosít" FontSize="24" Clicked="modifySchoolBtn_Clicked"></Button>
+
+    </StackLayout>
+</ContentPage>

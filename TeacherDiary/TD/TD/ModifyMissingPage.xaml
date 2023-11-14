@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TD.ModifyMissingPage">
+    <StackLayout Padding="20">
+        <Frame BackgroundColor="ForestGreen" Padding="24" CornerRadius="0">
+            <Label Text="Tanári napló - Hiány módosítás" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Label Text="Leírás"></Label>
+        <Entry x:Name="dscEntry" Text="" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
+        <Button x:Name="modifyBtn" BackgroundColor="YellowGreen" Text="Módosítás" FontSize="24" Clicked="modifyBtn_Clicked" ></Button>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,55 @@
+﻿@model Dictionary<string,int> 
+@{
+    
+}
+
+
+
+<html>
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', { 'packages': ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            
+        var data = google.visualization.arrayToDataTable([
+        @Html.Raw("['statistics', 'Reservations per line'],")             
+            @foreach (var row in @Model)
+            {
+                @Html.Raw($"['{@row.Key}',{@row.Value}],")
+            }
+
+        ]);
+
+            var options = {
+                title: 'Reservations'
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+            chart.draw(data, options);
+        }
+    </script>
+</head>
+<body>
+    <h3>Statistics</h3>
+    <div id="piechart" style="width: 900px; height: 500px;"></div>
+</body>
+
+<form method="get" enctype="multipart/form-data" asp-action="Statistics" asp-controller="Home">
+    <label for="departure">Departure:</label>
+    <input type="text" name="departure" />
+    <label for="arrival">Arrival:</label>
+    <input type="text" name="arrival" />
+    <label for="from">From:</label>
+    <input type="datetime" name="from" /><br />
+    <label for="to">To:</label>
+    <input type="datetime" name="to" /><br />
+
+    <button type="submit">Filter</button>
+</form>
+
+
+</html>

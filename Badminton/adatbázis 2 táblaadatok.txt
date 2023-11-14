@@ -1,0 +1,65 @@
+Championship:
+
+1,Istanbul, women badminton championship
+2,Toledo, men badminton championship
+3,Berlin, europe badminton cup
+
+Player:
+
+1,Orbán Zétény,Hungary,m
+2,Péter Adél,Hungary,f
+3,Alfred Frederiksson,Denmark,m
+4,Irmela Graf,Germany,f
+5,Stefanie Vog,Germany,f
+6,Eugen Kruger,Germany,m
+7,Hans Schröder,Germany,m
+8,Domingo Cano,Spain,m
+9,Adrian Saez,Spain,m
+10,Hanife Simsek,Turkey,f
+11,Irem Cetin,Turkey,f
+12,Sila Kaplan,Turkey,f
+13,Daniel Moore,UK,m
+14,Betty Young,UK,f
+15,Mitja Tomazic,Slovenia,m
+16,Samuel Gossens,Belgium,m
+17,Amarildo Aliaj,Albania,m
+18,Federica Pagano,Italy,f
+19,Nathan Carbone,Italy,m
+20,July Andersen, Norway,f
+
+Participants:
+
+1,2
+1,4
+1,5
+1,18
+1,10
+1,20
+
+2,1
+2,8
+2,9
+2,13
+2,17
+2,19
+
+3,17
+3,19
+3,20
+3,12
+3,2
+3,10
+3,6
+3,14
+3,18
+3,7
+
+
+Matches:
+1,round1,
+2,round2,
+3,round3,
+4,round4,
+
+
+

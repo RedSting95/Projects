@@ -1,0 +1,58 @@
+﻿@using System.Globalization
+@{
+    int week = (int)ViewData["week"];
+    DateTime monday = (DateTime)@ViewData["monday"];
+
+
+}
+@model Dictionary<Lines, List<Cars>>
+
+<h3>Calendar</h3>
+
+<h4>@Html.Raw($"Week {week} ({monday.Date.ToString("yyyy-MM-dd")} to {monday.AddDays(6).Date.ToString("yyyy-MM-dd")})")</h4>
+<a href="/Home/Calendar/?week=@(week-1)">Previous week</a>
+<a href="/Home/Calendar/?week=@(week+1)">Next week</a>
+<table>
+    <tr>
+        <th></th>
+        <th>Monday </th>
+        <th>Tuesday </th>
+        <th>Wednesday </th>
+        <th>Thursday </th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+    </tr>
+
+    @for (int i = 0; i < 24; i++)
+    {
+        <tr>
+            <th>@Html.Raw(i+":00")</th>
+            @for (int j = 1; j < 8; j++)
+            {
+                <td>
+                    <!--@Html.Raw($"Monday: {monday.AddDays(j - 1).AddHours(i)}")-->
+                    @foreach (var item in @Model)
+                    {
+                        @foreach (var car in item.Value)
+                        {
+                            if ((car.Start - monday.AddDays(j - 1).AddHours(i)).TotalHours < 1 && (car.Start - monday.AddDays(j - 1).AddHours(i)).TotalHours >= 0)
+                            {
+                                if (car.OccupiedSpots<item.Key.Capacity)
+                                {
+                                    <a href="/Home/Reserve/@car.Id">@Html.Raw($"{item.Key.Start}-{item.Key.Arrival} Seats: {car.OccupiedSpots}/{item.Key.Capacity}")</a>
+                                } else {
+                                    @Html.Raw($"{item.Key.Start}-{item.Key.Arrival} Seats: {car.OccupiedSpots}/{item.Key.Capacity}")
+                                }
+                                
+                            }
+
+                        }
+                    }
+                </td>
+            }
+        </tr>
+    }
+
+</table>
+

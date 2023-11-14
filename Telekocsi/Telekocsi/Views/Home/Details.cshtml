@@ -1,0 +1,43 @@
+﻿@*
+    
+*@
+@{
+    ViewData["Title"] = "Home Page";
+    Lines l = ViewData["line"] as Lines;
+    
+}
+@model List<Cars>
+<h3>Cars of line (@l.Start - @l.Arrival)</h3>
+@if (!String.IsNullOrEmpty(Convert.ToString(ViewData["session"])))
+{
+    <span><a href="~/Home/Addcar/?lid=@l.Id">Add new car</a></span>
+}
+<table>
+    @{
+        foreach (var c in Model)
+        {
+            <tr>
+                @if (!String.IsNullOrEmpty(Convert.ToString(ViewData["session"]))) {
+                    <td>Car Id: @c.Id</td>
+                }
+                <td>Departure: @c.Start</td>
+                <td>Seats: @c.OccupiedSpots/@l.Capacity</td>
+                <td>
+                    @if (@c.OccupiedSpots < @l.Capacity) {
+                        @Html.ActionLink("Reserve","Reserve","Home", new { id = c.Id }, null)
+
+                    }
+                </td>
+                @if (!String.IsNullOrEmpty(Convert.ToString(ViewData["session"])))
+                {
+                    <td>@Html.ActionLink("Modify","Modifycar","Home", new { id = c.Id }, null)</td>
+                    <td>@Html.ActionLink("Delete","Deletecar","Home", new { id = c.Id }, null)</td>
+                }
+            </tr>
+            
+        }
+    }
+    
+</table>
+
+

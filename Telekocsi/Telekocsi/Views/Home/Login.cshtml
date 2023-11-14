@@ -1,0 +1,21 @@
+﻿
+@{
+
+}
+
+<h3>Admin login</h3>
+
+<form method="post" enctype="multipart/form-data" asp-action="Login" asp-controller="Home">
+
+    <label for="name">Username:</label> 
+    <input type="text" name="name"/>
+    <span style="color:red; font-size:14px;">@ViewData["adminNameError"]</span>
+    <br />
+    <label for="pwd">Password:</label> 
+    <input type="password" name="pwd"/>
+    <span style="color:red; font-size:14px;">@ViewData["adminPwdError"]</span>
+    <br />
+
+    <button type="submit ">Login</button>
+
+</form>

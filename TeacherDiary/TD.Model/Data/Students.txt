@@ -1,0 +1,10 @@
+﻿1,Hajdu Rebeka,6B
+2,Kovács Mihály,6A
+3,Lukács László,7A
+4,Fábián Bendegúz,6A
+5,Varga Dalma,5A
+6,Dobos Kevin,7A
+7,Hegedűs Julianna,5A
+8,Lengyel Marianna,6B
+9,Orsós Dorián,7A
+10,Major Virág,6B

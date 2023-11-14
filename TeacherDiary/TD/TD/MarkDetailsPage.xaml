@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TD.MarkDetailsPage">
+    <StackLayout Padding="20">
+        <Frame BackgroundColor="ForestGreen" Padding="24" CornerRadius="0">
+            <Label Text="Tanári napló - Jegy részletező" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Grid RowSpacing="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40*"></ColumnDefinition>
+                <ColumnDefinition Width="60*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Text="Érték:" FontSize="24"></Label>
+            <Label Grid.Row="0" Grid.Column="1" x:Name="valueLabel" Text="{Binding Value}" FontSize="24"></Label>
+            <Label Grid.Row="1" Grid.Column="0" Text="Súlyozás:" FontSize="24"></Label>
+            <Label Grid.Row="1" Grid.Column="1" x:Name="WeightLabel" Text="{Binding Weight}" FontSize="24"></Label>
+
+            <Button Grid.Row="2" Grid.Column="0" BackgroundColor="YellowGreen" x:Name="modifyBtn" Text="Módosítás" FontSize="24" Clicked="modifyBtn_Clicked"></Button>
+            <Button Grid.Row="3" Grid.Column="0" BackgroundColor="YellowGreen" x:Name="clearBtn" Text="Törlés" FontSize="24" Clicked="clearBtn_Clicked"></Button>
+            
+        </Grid>
+    </StackLayout>
+</ContentPage>

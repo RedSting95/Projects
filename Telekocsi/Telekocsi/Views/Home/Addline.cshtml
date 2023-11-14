@@ -1,0 +1,28 @@
+﻿@{
+}
+
+<h3>Add line</h3>
+
+<form method="post" enctype="multipart/form-data" asp-action="AddLine" asp-controller="Home">
+
+    
+
+    <label for="start">Start: </label>
+    <input type="text" name="start" />
+    <span style="color:red; font-size:14px;">@ViewData["lineStartError"]</span><br />
+
+    <label for="arrival">Arrival: </label>
+    <input type="text" name="Arrival" />
+    <span style="color:red; font-size:14px;">@ViewData["lineArrivalError"]</span><br />
+
+    <label for="distance">Distance: </label>
+    <input type="number" min="1" step="0.1" name="distance" />
+    <span style="color:red; font-size:14px;">@ViewData["lineDistanceError"]</span><br />
+
+    <label for="capacity">Capacity: </label>
+    <input type="number" min="1" name="capacity" />
+    <span style="color:red; font-size:14px;">@ViewData["lineCapacityError"]</span><br />
+
+    <button type="submit">Add line</button> <a href="~/Home/Index">Abort</a>  <br />
+    <span>@ViewData["formValide"]</span>
+</form>

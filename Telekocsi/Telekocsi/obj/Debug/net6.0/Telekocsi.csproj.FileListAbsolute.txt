@@ -1,0 +1,262 @@
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\appsettings.json
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.staticwebassets.runtime.json
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.exe
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.deps.json
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.runtimeconfig.json
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.pdb
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.csproj.AssemblyReference.cache
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.AssemblyInfoInputs.cache
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.AssemblyInfo.cs
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.RazorAssemblyInfo.cache
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.RazorAssemblyInfo.cs
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\scopedcss\bundle\Telekocsi.styles.css
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\scopedcss\projectbundle\Telekocsi.bundle.scp.css
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\refint\Telekocsi.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.pdb
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.genruntimeconfig.cache
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\ref\Telekocsi.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.csproj.CopyComplete
+C:\Users\Ricardo\source\repos\csharpWeb\Telekocsi\Telekocsi\bin\Debug\net6.0\TariffConfig.txt
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\appsettings.Development.json
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\appsettings.json
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.staticwebassets.runtime.json
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.exe
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\TariffConfig.txt
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.deps.json
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.runtimeconfig.json
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.pdb
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Humanizer.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.csproj.AssemblyReference.cache
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.GeneratedMSBuildEditorConfig.editorconfig
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.AssemblyInfoInputs.cache
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.AssemblyInfo.cs
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.csproj.CoreCompileInputs.cache
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.MvcApplicationPartsAssemblyInfo.cache
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.RazorAssemblyInfo.cache
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.RazorAssemblyInfo.cs
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets.build.json
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets.development.json
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\scopedcss\bundle\Telekocsi.styles.css
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\scopedcss\projectbundle\Telekocsi.bundle.scp.css
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.csproj.CopyComplete
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\refint\Telekocsi.dll
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.pdb
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.genruntimeconfig.cache
+C:\egyetem\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\ref\Telekocsi.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\appsettings.Development.json
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\appsettings.json
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.staticwebassets.runtime.json
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.exe
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\TariffConfig.txt
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.deps.json
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.runtimeconfig.json
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.pdb
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Humanizer.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Drawing.Common.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Runtime.Caching.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Security.Permissions.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Windows.Extensions.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.csproj.AssemblyReference.cache
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.GeneratedMSBuildEditorConfig.editorconfig
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.AssemblyInfoInputs.cache
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.AssemblyInfo.cs
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.csproj.CoreCompileInputs.cache
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.MvcApplicationPartsAssemblyInfo.cache
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.RazorAssemblyInfo.cache
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.RazorAssemblyInfo.cs
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets\msbuild.Telekocsi.Microsoft.AspNetCore.StaticWebAssets.props
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets\msbuild.build.Telekocsi.props
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Telekocsi.props
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Telekocsi.props
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets.pack.json
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets.build.json
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets.development.json
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\scopedcss\bundle\Telekocsi.styles.css
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\scopedcss\projectbundle\Telekocsi.bundle.scp.css
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.csproj.CopyComplete
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\refint\Telekocsi.dll
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.pdb
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.genruntimeconfig.cache
+F:\proginfo FOSZK\2022-23-1\evosoft\beadando_40\Telekocsi\Telekocsi\obj\Debug\net6.0\ref\Telekocsi.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\appsettings.json
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.staticwebassets.runtime.json
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.exe
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\TariffConfig.txt
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.deps.json
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.runtimeconfig.json
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Telekocsi.pdb
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.csproj.AssemblyReference.cache
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.AssemblyInfoInputs.cache
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.AssemblyInfo.cs
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.csproj.CoreCompileInputs.cache
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.RazorAssemblyInfo.cache
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.RazorAssemblyInfo.cs
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets\msbuild.Telekocsi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets\msbuild.build.Telekocsi.props
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Telekocsi.props
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Telekocsi.props
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\scopedcss\bundle\Telekocsi.styles.css
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\scopedcss\projectbundle\Telekocsi.bundle.scp.css
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.csproj.CopyComplete
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\refint\Telekocsi.dll
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.pdb
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\Telekocsi.genruntimeconfig.cache
+C:\Users\Riccardo\Desktop\github projektek\Telekocsi\Telekocsi\obj\Debug\net6.0\ref\Telekocsi.dll

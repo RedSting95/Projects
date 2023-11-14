@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantik</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 >Quantik</h1>
+    <div id="nyitolap">
+        <label for="player1">1. Játékos: </label>
+        <input type="text" id="player1" value="1.játékos"><br>
+        <label for="player2">2. Játékos: </label>
+        <input type="text" id="player2" value="2.játékos"><br>
+        <details>
+            <summary>Játékszabály</summary>
+            <p>A játék egy 4x4-es táblán játszódik, ami 4 egyenlő, 2x2-es részre van bontva. A játékhoz négy,
+                 egymástól könnyen megkülönböztethető, alakzatot használhatunk, jelen esetben négyzetet, kört, háromszöget és X-et. 
+                 Mind a két játékosnak minden alakzatból 2-2 bábuja van, így összesen 8 alakzat található meg egy színből. 
+                 A játék célja az, hogy elsőként helyezzék le a játékosok a negyedik, többitől különböző formát egy sorba, 
+                 oszlopba, vagy négyzet alakú területre (színtől függetlenül). Ha egy cellára lehelyeztünk egy alakzatot, 
+                 akkor annak sorába, oszlopába, vagy négyzet alakú területére nem tudja már egyik játékos sem még egyszer 
+                 ugyanazt az alakzatot letenni.
+            </p>
+        </details>
+        <details>
+            <summary>Statisztika</summary>
+            <p id="statp"></p>
+        </details>
+        
+        <button id="start">Start</button><br>
+        <button id="savedGame">Mentett játék</button>
+    </div>
+
+    <div id="jatekoldal" style="display: none">
+        
+        <div id="jatek"></div>
+        <div id="jatekmenu">
+            <div id="aktJatekos" >
+                <div id="divp1">
+                    <figure id="figurep1" class="actual">
+                        <p><img src="playerIconTest.png" alt="test" width="100px" height="100px"></p>
+                        <figcaption id="p1name"></figcaption>
+                    </figure>
+                </div>
+                <div id="divp2">
+                    <figure id="figurep2">
+                        <p><img src="playerIconTest.png" alt="test" width="100px" height="100px"></p>
+                        <figcaption id="p2name"></figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div id="babuk">
+                <div id="babukp1">
+                    <div >
+                        <svg class="pcssvg" width="55px" height="55px" .class="menusvg" fill="green" data-shape="cross" >
+                            <polygon points="0 15, 15 15, 15 0, 35 0, 35 15, 50 15, 50 35, 35 35, 35 50, 15 50, 15 35, 0 35"/>  <!--cross-->
+                        </svg>
+                        <div class="pcs">2</div>
+                    </div>
+                    <div >
+                        <svg class="pcssvg" width="50px" height="50px" .class="menusvg" fill="green" data-shape="triangle">
+                            <polygon points="25 0, 50 50, 0 50"/>       <!--triangle-->
+                        </svg><div class="pcs">2</div>
+                    </div>
+                    <div >
+                        <svg class="pcssvg" width="50px" height="50px" .class="menusvg" fill="green" data-shape="square">
+                            <polygon points="0 0, 50 0, 50 50, 0 50"/>  <!--square-->
+                        </svg><div class="pcs">2</div>
+                    </div>
+                    <div >
+                        <svg class="pcssvg" width="50px" height="50px" .class="menusvg" fill="green" data-shape="circle">
+                            <circle cx="25" cy="25" r="25" > <!--circle-->
+                        </svg><div class="pcs">2</div>
+                    </div>
+                </div>
+                <div id="babukp2">
+                    <div >
+                        <svg class="pcssvg" width="50px" height="50px" .class="menusvg" fill="red" data-shape="cross">
+                            <polygon points="0 15, 15 15, 15 0, 35 0, 35 15, 50 15, 50 35, 35 35, 35 50, 15 50, 15 35, 0 35"/>  <!--cross-->
+                        </svg><div class="pcs">2</div>
+                    </div>
+                    <div >
+                        <svg class="pcssvg" width="50px" height="50px" .class="menusvg" fill="red" data-shape="triangle">
+                            <polygon points="25 0, 50 50, 0 50"/>       <!--triangle-->
+                        </svg><div class="pcs">2</div>
+                    </div>
+                    <div >
+                        <svg class="pcssvg" width="50px" height="50px" .class="menusvg" fill="red" data-shape="square">
+                            <polygon points="0 0, 50 0, 50 50, 0 50"/>  <!--square-->
+                        </svg><div class="pcs">2</div>
+                    </div>
+                    <div >
+                        <svg class="pcssvg" width="50px" height="50px" .class="menusvg" fill="red" data-shape="circle">
+                            <circle cx="25" cy="25" r="25" > <!--circle-->
+                        </svg><div class="pcs">2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="vege" style="display: none">
+        <button id="nyitButton">Nyitólap</button><br>
+        <button id="mentButton">Játék mentése</button>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

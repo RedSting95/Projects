@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TD.Classes">
+    <StackLayout Padding="20">
+        <Frame BackgroundColor="ForestGreen" Padding="24" CornerRadius="0">
+            <Label Text="Tanári napló - Osztályok" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Label Text="Új osztály felvétele" FontSize="24"></Label>
+        <Label Text="Osztály neve"></Label>
+        <Entry x:Name="schoolEntry" Text="" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
+        <Button x:Name="newBtn" BackgroundColor="YellowGreen" Text="Hozzáad" FontSize="24" Clicked="newBtn_Clicked"></Button>
+
+        <ListView x:Name="classList" ItemSelected="classList_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            
+
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50*"></ColumnDefinition>
+                                    <ColumnDefinition Width="30*"></ColumnDefinition>
+                                    <ColumnDefinition Width="20*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Column="0" Text="{Binding Name}" FontSize="24" Padding="10"></Label>
+                                <Button x:Name="modifyBtn" Grid.Column="1" BackgroundColor="YellowGreen" Text="Módosítás" FontSize="24" CommandParameter="{Binding Name}" Clicked="modifyBtn_Clicked"></Button>
+                                <Button x:Name="clearBtn" Grid.Column="2" BackgroundColor="YellowGreen" Text="Törlés" FontSize="24" CommandParameter="{Binding Name}" Clicked="clearBtn_Clicked"></Button>
+
+
+                            </Grid>
+
+
+
+                        </StackLayout>
+                    </ViewCell>
+                    
+                    
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+    
+</ContentPage>

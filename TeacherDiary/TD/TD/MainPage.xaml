@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TD.MainPage">
+
+    <StackLayout Padding="20">
+        <Frame BackgroundColor="ForestGreen" Padding="24" CornerRadius="0">
+            <Label Text="Tanári napló - Főoldal" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button x:Name="_classes" Text="Osztályok" FontSize="24" Clicked="_classes_Clicked" BackgroundColor="YellowGreen"  HeightRequest="150"></Button>
+        <Button x:Name="_calendar" Text="Naptár" FontSize="24" Clicked="_calendar_Clicked" BackgroundColor="YellowGreen"  HeightRequest="150"></Button>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,63 @@
+﻿@{
+    string a = ViewData["session"] as string;
+    //string a = "admin";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Telekocsi</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+
+</head>
+<body>
+    
+    <header>
+        <h1>Telecar reserve application</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/Home/Index">Home</a>
+                </li>
+                <li>
+                    <a href="/Home/Search">Search cars</a>
+                </li>
+                <li>
+                    <a href="/Home/Calendar">Calendar</a>
+                </li>
+                @if (String.IsNullOrEmpty(a)) {
+                    <li>
+                        <a href="/Home/Login">Admin Login</a>
+                    </li>
+                }
+                @if (!String.IsNullOrEmpty(a))
+                {
+                    <li>
+                        <a href="/Home/Addline">Add new Line</a>
+                    </li>
+                    <li>
+                        <a href="/Home/Statistics">Statistics</a>
+                    </li>
+                    <li>
+                        <a href="/Home/Logout">Logout</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+
+    <footer>
+
+        &copy; 2022 - Telecar - <a asp-area="" asp-page="/Privacy">Privacy</a>
+
+    </footer>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

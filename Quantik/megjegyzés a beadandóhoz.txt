@@ -1,0 +1,6 @@
+bábu lerakása: Az első változat szerint szabályos, vagyis egy sorba, oszlopba, szektorba, nem mehet ugyanolyan bábu.
+bábu kiválasztása: a játéktábla melletti bábuk közül lehet választani, a kiválasztott elemet nem jelzi külön a játék.
+mentett játék: lista helyett egy gomb jelenik meg, egyszerre csak egy mentett játékot tárol az alkalmazás.
+statisztika: csak a főoldalon érhető el, és az oldal újratöltéséig tárolja a győzelmek számát.
+játék vége: a döntetlen állást nem érzékeli a játék, csak a győzelmet.
+a játék: néha bugos, és nem enged bábut lerakni. A játékállás mentése, és betöltése helyreállítja.
