@@ -1,0 +1,21 @@
+#operations {
+    display: flex;
+    width: 850px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+div.container {
+    margin: 10px 100px 10px 10px;
+    font-size: large;
+}
+
+div.container > div {
+    margin-bottom: 10px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    font-size: large;
+}
