@@ -1,5 +1,10 @@
 const operationsDiv = document.querySelector("#operations");
 const generateButton = document.querySelector("#generateButton");
+const operationsDiv2 = document.querySelector("#operations2");
+const generateButton2 = document.querySelector("#generateButton2");
+const operationsDiv3 = document.querySelector("#operations3");
+const generateButton3 = document.querySelector("#generateButton3");
+const operationsDiv4 = document.querySelector("#operations4");
 
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
@@ -54,5 +59,227 @@ generateButton.addEventListener("click", e => {
     s+="</div>";
 
     operationsDiv.innerHTML=s;
+})
+
+generateButton2.addEventListener("click", e => {
+    operationsDiv2.innerHTML = "";
+    let s = "";
+    let number1 = "";
+    let number2 = "";
+    let number3 = "";
+    let number4 = "";
+
+    s+=`<div class="division">`;
+
+    s+=`<div class="subdivision1">`;
+    for (let i = 0; i < 10; i++) {
+        number1 = getRandomNumber(1,20);
+        number2 = getRandomNumber(1,20);
+        number3 = getRandomNumber(1,10);
+        number4 = getRandomNumber(1,10);
+
+        s+=`<div>`;
+
+        
+        s+=`<p>
+            <span class="frac"><sup>${number1}</sup><span></span><sub>${number3}</sub></span> 
+            + 
+            <span class="frac"><sup>${number2}</sup><span></span><sub>${number4}</sub></span>
+            = 
+            <span class="frac longfrac"><sup></sup><span></span><sub></sub></span>
+            = 
+            <span class="frac shortfrac"><sup></sup><span></span><sub></sub></span>
+            </p>`;
+
+        s+=`</div>`;
+        
+        
+    }
+    s+=`</div>`;
+    
+    s+=`<div class="subdivision2">`;
+    for (let i = 0; i < 10; i++) {
+        number1 = getRandomNumber(1,20);
+        number2 = getRandomNumber(1,20);
+        number3 = getRandomNumber(1,10);
+        number4 = getRandomNumber(1,10);
+
+        s+=`<div>`;
+
+        
+        s+=`<p>
+            <span class="frac"><sup>${number1}</sup><span></span><sub>${number3}</sub></span> 
+            - 
+            <span class="frac"><sup>${number2}</sup><span></span><sub>${number4}</sub></span>
+            = 
+            <span class="frac longfrac"><sup></sup><span></span><sub></sub></span>
+            = 
+            <span class="frac shortfrac"><sup></sup><span></span><sub></sub></span>
+            </p>`;
+
+        s+=`</div>`;
+        
+    }
+    s+=`</div>`;
+
+    s+=`</div>`;
+
+    operationsDiv2.innerHTML = s;
+})
+
+generateButton3.addEventListener("click", e => {
+    operationsDiv3.innerHTML = "";
+    let s = "";
+    let number1 = "";
+    let number2 = "";
+    let number3 = "";
+    let number4 = "";
+    let number5 = "";
+    let number6 = "";
+
+    s+=`<div class="division2">`;
+
+    s+=`<div class="subdivision1">`;
+    for (let i = 0; i < 5; i++) {
+        number1 = getRandomNumber(1,10);
+        number2 = getRandomNumber(1,10);
+        number3 = getRandomNumber(1,10);
+        number4 = getRandomNumber(2,7);
+        number5 = getRandomNumber(2,7);
+        number6 = getRandomNumber(2,7);
+
+        s+=`<div>`;
+
+        
+        s+=`<p>
+            <span class="frac"><sup>${number1}</sup><span></span><sub>${number4}</sub></span> 
+            + 
+            <span class="frac"><sup>${number2}</sup><span></span><sub>${number5}</sub></span>
+            + 
+            <span class="frac"><sup>${number3}</sup><span></span><sub>${number6}</sub></span>
+            = 
+            <span class="frac longfrac"><sup></sup><span></span><sub></sub></span>
+            = 
+            <span class="frac shortfrac"><sup></sup><span></span><sub></sub></span>
+            </p>`;
+
+        s+=`</div>`;
+        
+        
+    }
+    s+=`</div>`;
+    
+
+    s+=`<div class="subdivision2">`;
+    for (let i = 0; i < 5; i++) {
+        number1 = getRandomNumber(1,10);
+        number2 = getRandomNumber(1,10);
+        number3 = getRandomNumber(1,10);
+        number4 = getRandomNumber(2,7);
+        number5 = getRandomNumber(2,7);
+        number6 = getRandomNumber(2,7);
+
+        s+=`<div>`;
+
+        
+        s+=`<p>
+            <span class="frac"><sup>${number1}</sup><span></span><sub>${number4}</sub></span> 
+            - 
+            <span class="frac"><sup>${number2}</sup><span></span><sub>${number5}</sub></span>
+            - 
+            <span class="frac"><sup>${number3}</sup><span></span><sub>${number6}</sub></span>
+            = 
+            <span class="frac longfrac"><sup></sup><span></span><sub></sub></span>
+            = 
+            <span class="frac shortfrac"><sup></sup><span></span><sub></sub></span>
+            </p>`;
+
+        s+=`</div>`;
+        
+    }
+    s+=`</div>`;
+    
+    s+=`</div>`;
+
+    operationsDiv3.innerHTML = s;
+
+
+
+
+    operationsDiv4.innerHTML = "";
+    s = "";
+
+    s+=`<div class="division2">`;
+
+    s+=`<div class="subdivision1">`;
+    for (let i = 0; i < 5; i++) {
+        number1 = getRandomNumber(1,10);
+        number2 = getRandomNumber(1,10);
+        number3 = getRandomNumber(1,10);
+        number4 = getRandomNumber(2,7);
+        number5 = getRandomNumber(2,7);
+        number6 = getRandomNumber(2,7);
+
+        s+=`<div>`;
+
+        
+        s+=`<p>
+            <span class="frac"><sup>${number1}</sup><span></span><sub>${number4}</sub></span> 
+            + 
+            <span class="frac"><sup>${number2}</sup><span></span><sub>${number5}</sub></span>
+            - 
+            <span class="frac"><sup>${number3}</sup><span></span><sub>${number6}</sub></span>
+            = 
+            <span class="frac longfrac"><sup></sup><span></span><sub></sub></span>
+            = 
+            <span class="frac shortfrac"><sup></sup><span></span><sub></sub></span>
+            </p>`;
+
+        s+=`</div>`;
+        
+        
+    }
+    s+=`</div>`;
+    
+
+    s+=`<div class="subdivision2">`;
+    for (let i = 0; i < 5; i++) {
+        number1 = getRandomNumber(1,10);
+        number2 = getRandomNumber(1,10);
+        number3 = getRandomNumber(1,10);
+        number4 = getRandomNumber(2,7);
+        number5 = getRandomNumber(2,7);
+        number6 = getRandomNumber(2,7);
+
+        s+=`<div>`;
+
+        
+        s+=`<p>
+            <span class="frac"><sup>${number1}</sup><span></span><sub>${number4}</sub></span> 
+            - 
+            <span class="frac"><sup>${number2}</sup><span></span><sub>${number5}</sub></span>
+            + 
+            <span class="frac"><sup>${number3}</sup><span></span><sub>${number6}</sub></span>
+            = 
+            <span class="frac longfrac"><sup></sup><span></span><sub></sub></span>
+            = 
+            <span class="frac shortfrac"><sup></sup><span></span><sub></sub></span>
+            </p>`;
+
+        s+=`</div>`;
+        
+    }
+    s+=`</div>`;
+    
+    s+=`</div>`;
+
+    operationsDiv4.innerHTML = s;
+
+
+
+
+
+
+
 })
 

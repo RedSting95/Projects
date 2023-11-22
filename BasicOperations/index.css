@@ -1,21 +1,68 @@
 #operations {
     display: flex;
-    width: 850px;
+    width: 1000px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+#operations2 {
     margin-top: 20px;
     padding-top: 5px;
 }
 
 div.container {
     margin: 10px 100px 10px 10px;
-    font-size: large;
+    font-size: x-large;
 }
 
 div.container > div {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 button {
     height: 50px;
     width: 200px;
     font-size: large;
+    
+}
+
+.division {
+    display: flex;
+    width: 900px;
+    margin-bottom: 30px;
+    font-size: x-large;
+}
+
+.division2 {
+    display: flex;
+    width: 1100px;
+    margin-bottom: 30px;
+    font-size: x-large;
+}
+
+.subdivision1 {
+    margin-right: 150px;
+}
+
+
+span.frac {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+span.frac > sup, span.frac > sub {
+    display: block;
+    font: inherit;
+    padding: 0 0.3em;
+}
+
+span.frac > sup {border-bottom: 0.08em solid;}
+span.frac > span {display: none;}
+
+.longfrac {
+    width: 150px;
+}
+
+.shortfrac {
+    width: 50px;
 }
