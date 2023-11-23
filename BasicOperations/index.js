@@ -5,6 +5,9 @@ const generateButton2 = document.querySelector("#generateButton2");
 const operationsDiv3 = document.querySelector("#operations3");
 const generateButton3 = document.querySelector("#generateButton3");
 const operationsDiv4 = document.querySelector("#operations4");
+const generateButton4 = document.querySelector("#generateButton4");
+const operationsDiv5 = document.querySelector("#operations5");
+const operationsDiv6 = document.querySelector("#operations6");
 
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
@@ -278,6 +281,91 @@ generateButton3.addEventListener("click", e => {
 
 
 
+
+
+
+})
+
+generateButton4.addEventListener("click", e => {
+    operationsDiv5.innerHTML = "";
+    let s = "";
+    let number1 = "";
+    let number2 = "";
+
+    s+=`<div class="container">`;
+    for (let i = 0; i < 5; i++) {
+        number1 = getRandomNumber(1,30);
+        number2 = getRandomNumber(1,30);
+        s+=`<div><span>${number1} + (+ ${number2}) =<span></div>`;
+    }
+    s+=`</div>`
+
+    s+=`<div class="container">`;
+    for (let i = 0; i < 5; i++) {
+        number1 = getRandomNumber(1,30);
+        number2 = getRandomNumber(1,30);
+        s+=`<div><span>${number1} + (- ${number2}) =<span></div>`;
+    }
+    s+=`</div>`
+
+    s+=`<div class="container">`;
+    for (let i = 0; i < 5; i++) {
+        number1 = getRandomNumber(1,30);
+        number2 = getRandomNumber(1,30);
+        s+=`<div><span>${number1} - (+ ${number2}) =<span></div>`;
+    }
+    s+=`</div>`
+
+    s+=`<div class="container">`;
+    for (let i = 0; i < 5; i++) {
+        number1 = getRandomNumber(1,30);
+        number2 = getRandomNumber(1,30);
+        s+=`<div><span>${number1} - (- ${number2}) =<span></div>`;
+    }
+    s+=`</div>`
+
+    operationsDiv5.innerHTML = s;
+
+
+
+
+
+    operationsDiv6.innerHTML="";
+    s="";
+
+    s+=`<div class="container">`;
+    for (let i = 0; i < 5; i++) {
+        number1 = getRandomNumber(1,30);
+        number2 = getRandomNumber(1,30);
+        s+=`<div><span>- ${number1} + (+ ${number2}) =<span></div>`;
+    }
+    s+=`</div>`
+
+    s+=`<div class="container">`;
+    for (let i = 0; i < 5; i++) {
+        number1 = getRandomNumber(1,30);
+        number2 = getRandomNumber(1,30);
+        s+=`<div><span>- ${number1} + (- ${number2}) =<span></div>`;
+    }
+    s+=`</div>`
+
+    s+=`<div class="container">`;
+    for (let i = 0; i < 5; i++) {
+        number1 = getRandomNumber(1,30);
+        number2 = getRandomNumber(1,30);
+        s+=`<div><span>- ${number1} - (+ ${number2}) =<span></div>`;
+    }
+    s+=`</div>`
+
+    s+=`<div class="container">`;
+    for (let i = 0; i < 5; i++) {
+        number1 = getRandomNumber(1,30);
+        number2 = getRandomNumber(1,30);
+        s+=`<div><span>- ${number1} - (- ${number2}) =<span></div>`;
+    }
+    s+=`</div>`
+
+    operationsDiv6.innerHTML = s;
 
 
 

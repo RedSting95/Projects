@@ -5,7 +5,26 @@
     padding-top: 5px;
 }
 
+#operations5 {
+    display: flex;
+    width: 1000px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+#operations6 {
+    display: flex;
+    width: 1000px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
 #operations2 {
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+#operations3 {
     margin-top: 20px;
     padding-top: 5px;
 }
