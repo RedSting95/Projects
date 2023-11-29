@@ -1,8 +1,13 @@
-#operations, #operations5, #operations6, #operations7, #operations8 {
+#operations, #operations5, #operations9 {
     display: flex;
     width: 1000px;
     margin-top: 20px;
     padding-top: 5px;
+}
+
+#operations6, #operations7, #operations8 {
+    display: flex;
+    width: 1000px;
 }
 
 #operations2 {
@@ -15,6 +20,10 @@
     padding-top: 5px;
 }
 
+#operations9 {
+    width: 1800px;
+}
+
 .division {
     display: flex;
     width: 900px;
@@ -25,6 +34,13 @@
 .division2 {
     display: flex;
     width: 1100px;
+    margin-bottom: 30px;
+    font-size: x-large;
+}
+
+.division3 {
+    display: flex;
+    width: 1500px;
     margin-bottom: 30px;
     font-size: x-large;
 }
@@ -46,6 +62,10 @@ button {
 }
 
 .subdivision1 {
+    margin-right: 150px;
+}
+
+.subdivision3 {
     margin-right: 150px;
 }
 
